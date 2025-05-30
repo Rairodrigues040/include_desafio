@@ -1,0 +1,230 @@
+.time {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 80px;
+    background-color: rgb(255, 210, 160);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    
+}
+
+.nossa_equipe {
+    font-size: 30px; 
+    font-weight: bold; 
+    color: black; 
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+.equipe {
+    margin: 20px 0 0 0; 
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 60px; 
+    margin-top: 60px;
+}
+
+.equipe1, .equipe2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px; 
+}
+
+.equipe1 > div, .equipe2 > div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.mr {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(58, 127, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rr {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(255, 130, 54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.al {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(149, 49, 228);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ks {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(41, 182, 104);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gs {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(240, 105, 45);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ap {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(149, 49, 228);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.marina{
+    gap:5px;
+}
+.rai{
+    gap:5px;
+}
+.alice{
+    gap:5px;
+}
+.kaio{
+    gap:5px;
+}
+.gustavo{
+    gap:5px;
+}
+.alisson{
+    gap:5px;
+}
+
+.area {
+    color: rgb(58, 127, 255);
+    
+}
+.area2 {
+    color: rgb(255, 130, 54);
+    
+}
+.area3 {
+    color: rgb(149, 49, 228);
+    
+}
+.area4 {
+    color: rgb(41, 182, 104);
+    
+}
+.area5 {
+    color: rgb(240, 105, 45);
+    
+}
+.area6 {
+    color: rgb(149, 49, 228);
+    
+}
+
+p {
+    max-width: 300px; 
+    word-wrap: break-word; 
+    word-break: break-word; 
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .time {
+        padding: 40px 20px; /* menos padding */
+        height: auto; /* altura automática */
+    }
+
+    .nossa_equipe {
+        font-size: 24px; /* reduz tamanho do título */
+        margin-top: 20px;
+        
+    }
+
+    .equipe {
+        gap: 30px; /* menos espaço entre as linhas */
+        margin-top: 30px;
+    }
+
+    .equipe1, .equipe2 {
+        flex-direction: column; /* empilha os membros */
+        gap: 20px; /* menos espaço entre membros */
+    }
+
+    .mr, .rr, .al, .ks, .gs, .ap {
+        width: 70px;
+        height: 70px;
+        font-size: 16px; /* fonte menor */
+    }
+
+    .marina, .rai, .alice, .kaio, .gustavo, .alisson {
+        gap: 5px; /* pode manter */
+    }
+
+    p {
+        max-width: 250px;
+        font-size: 14px; /* texto menor */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
