@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FEEDD6;
+  padding-bottom: 20px;
+}
+
+.secao-laranja {
+  background-color: #ED6921;
+  color: #F8FAFC;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  line-height: 1;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600; 
+}
