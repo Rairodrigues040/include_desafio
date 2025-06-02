@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/header/Header';
 import Time from './components/Seçao_time/Seçao_time';
 import Footer from './components/Footer/footer';
+import NossosValores from './components/Nossos_Valores/NossosValores';
 import './App.css';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <main>
         <p>Olá, Time Includers</p>
+        <NossosValores />
         <Time />
         <Footer/>
       </main>
