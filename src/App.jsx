@@ -1,20 +1,29 @@
-import React from 'react';
-import Header from './components/header/Header';
-import Time from './components/Seçao_time/Seçao_time';
-import Footer from './components/Footer/footer';
-import NossosValores from './components/Nossos_Valores/NossosValores';
-import './App.css';
+
+import React from "react";
+import Header from "./components/header/Header";
+import Card from "./components/cards/Cards";
+import "./App.css";
+import Carrossel from "./components/carrossel/Carrossel";
+import DescicaoCarrossel from "./components/carrossel/DescicaoCarrossel";
+import Time from "./components/time/Time"
+import Footer from './components/Footer/Footer'
+import Historia from "./components/historia/Historia";
+import Valores from "./components/valores/Valores";
+import TodosPets from './components/cards/TodosPets'
 
 const App = () => {
   return (
     <div className="page">
       <Header />
-      <main>
-        <p>Olá, Time Includers</p>
-        <NossosValores />
-        <Time />
-        <Footer/>
-      </main>
+      <Carrossel/>
+      <DescicaoCarrossel/>
+      <Valores/>
+      <Card />
+      <Historia/>
+      <Time/>
+      <TodosPets/>
+      <Footer/>
+
     </div>
   );
 };
