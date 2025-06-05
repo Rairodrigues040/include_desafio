@@ -40,33 +40,31 @@ button {
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 14px; 
-  padding: 10px 20px; 
+  font-size: 14px;
+  padding: 10px 20px;
   border-radius: 8px;
   background-color: #ED6921;
   color: white;
   border: none;
   cursor: pointer;
-  /* Efeito para suavizar*/
   transition: background-color 0.3s ease, transform 0.3s ease-out;
-  margin-left: 20px;
+  margin-left: 20px; /* Verifique se este é o valor desejado ou se é ajustado na media query */
   width: auto;
-  transform-origin: center; 
+  transform-origin: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 @media (hover: hover) and (pointer: fine) {
   button:hover {
     background-color: #e25b12;
-    transform: scale(1.1); /* Efeito de crescimento no hover para pcs */
+    transform: scale(1.11);
   }
 }
-/* testa para mobile */
+
 button:active {
   background-color: #e25b12;
-  transform: scale(1.07);
+  transform: scale(1.10);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
-  
 }
 
 /* container 3 */
