@@ -3,7 +3,6 @@ import './footer.css';
 import Logo from './logo_branca.png';
 import Facebook from './facebook.png'
 import Instagram from './instagram.png'
-import X from './X.png'
 import Email from './email.png'
 import Localização from './localização.png'
 import Telefone from './telefone.png'
@@ -24,7 +23,7 @@ function Footer(){
                     <div className="icones">
                         <a href="#"><img src={Facebook} alt="face" /></a>
                         <a href="#"><img src={Instagram} alt="insta" /></a>
-                        <a href="#"><img src={X} alt="x" /></a>
+                        
                     </div>
                 </div>
 
