@@ -23,7 +23,6 @@ function ContainerCompartilhe() {
           </ul>
           <button>Siga-nos nas Redes</button>
         </div>
-        {/* CORREÇÕES APLICADAS NA LINHA ABAIXO */}
         <img src="/img/telaAjudar/imagem3.png" alt="Mãos segurando um celular com redes sociais" className="img-compartilhe" />
       </div>
     </div>

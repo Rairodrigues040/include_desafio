@@ -1,9 +1,8 @@
 import React from 'react';
-import './ContainerContribua.css'; // Importa os estilos específicos para este componente
+import './ContainerContribua.css'; 
 
 function ContainerContribua() {
-  // Novamente, os caminhos das imagens foram alterados para começar com "/"
-  // para carregar a partir da pasta `public` do seu projeto.
+
   return (
     <div className="container-contribua">
       <div className="contribua-flex">
