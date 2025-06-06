@@ -9,7 +9,7 @@ function MyUploader({ onUpload }) {
     const url = `https://api.cloudinary.com/v1_1/dzntoqrfj/image/upload`;
     const formData = new FormData();
     formData.append('file', file);
-    formData.append('upload_preset', 'includePets'); // ✅ seu upload preset
+    formData.append('upload_preset', 'includePets');
 
     const response = await fetch(url, {
       method: 'POST',
