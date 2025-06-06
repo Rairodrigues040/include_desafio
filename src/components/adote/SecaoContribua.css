@@ -42,7 +42,7 @@ body {
     font-weight: 600;
     font-size: 14px; 
     padding: 10px 20px; 
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: #ED6921;
     color: white;
     border: none;
@@ -175,6 +175,7 @@ body {
     button {
       margin-left: 0; 
       margin-top: 15px;
+      border-radius: 4px;
     }
   
     .titulo-com-icone {

@@ -26,6 +26,7 @@
     font-weight: bold;
     display: flex;
     align-items: center;
+    border-radius: 4px;
   }
   
   .filtros button:hover {
@@ -43,7 +44,7 @@
   .paginacao button {
     padding: 8px 12px;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     background-color: #eee;
     cursor: pointer;
   }

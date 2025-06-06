@@ -181,39 +181,39 @@ p {
 
 @media (max-width: 768px) {
     .time {
-        padding: 40px 20px; /* menos padding */
-        height: auto; /* altura automática */
+        padding: 40px 20px; 
+        height: auto; 
     }
 
     .nossa_equipe {
-        font-size: 24px; /* reduz tamanho do título */
+        font-size: 24px; 
         margin-top: 20px;
         
     }
 
     .equipe {
-        gap: 30px; /* menos espaço entre as linhas */
+        gap: 30px; 
         margin-top: 30px;
     }
 
     .equipe1, .equipe2 {
-        flex-direction: column; /* empilha os membros */
-        gap: 20px; /* menos espaço entre membros */
+        flex-direction: column; 
+        gap: 20px; 
     }
 
     .mr, .rr, .al, .ks, .gs, .ap {
         width: 70px;
         height: 70px;
-        font-size: 16px; /* fonte menor */
+        font-size: 16px; 
     }
 
     .marina, .rai, .alice, .kaio, .gustavo, .alisson {
-        gap: 5px; /* pode manter */
+        gap: 5px; 
     }
 
     p {
         max-width: 250px;
-        font-size: 14px; /* texto menor */
+        font-size: 14px; 
     }
 }
 

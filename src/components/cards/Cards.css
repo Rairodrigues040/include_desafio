@@ -183,7 +183,7 @@
 .button-card button{
     border: none;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: #F97316;
     color: #fff;
     cursor: pointer;

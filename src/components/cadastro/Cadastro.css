@@ -78,7 +78,7 @@ body {
 }
 
 .container form button {
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #ED6921;
     border: none;
     color: white;
@@ -94,7 +94,7 @@ body {
 
 .container form input {
     border: 1px solid #999;
-    border-radius: 5px;
+    border-radius: 4px;
     height: 40px;
     font-size: 12px;
     padding-left: 10px;

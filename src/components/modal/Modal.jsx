@@ -2,6 +2,8 @@ import React from "react";
 import "./Modal.css";
 import { SlCalender } from "react-icons/sl";
 import { IoPawOutline, IoClipboardOutline, IoLocationOutline } from "react-icons/io5";
+import Modal2 from "../modal2/modal2";
+import { useState } from "react";
 
 const Modal = ({
   isOpen,
@@ -21,6 +23,7 @@ const Modal = ({
   castrado,
   requisitos,
 }) => {
+  const [openModal, setOpenModal] = useState (false)
   if (!isOpen) return null;
 
   return (
@@ -90,9 +93,14 @@ const Modal = ({
               </ul>
             </div>
             <div className="button-pet">
-              <button>Tenho interesse</button>
+              <button onClick={() => {setOpenModal(true)} }>Tenho interesse</button>
             </div>
+            <Modal2 isOpen={openModal} onClose={() => setOpenModal(false)} nome={nome} />
+
+            
           </div>
+          
+          
         </div>
       </div>
     </div>
