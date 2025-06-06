@@ -1,15 +1,23 @@
-import React from "react";
-import Header from "./components/header/Header";
-import Card from "./components/cards/Cards";
-import "./App.css";
+import React from 'react';
+import Cards from './components/cards/Cards'
+import PetCards from './components/cards/PetCard'
 
-const App = () => {
+function App() {
   return (
-    <div className="page">
-      <Header />
-      <Card />
+    <div className="App">
+      <header>
+        
+      </header>
+      <main>
+        <p>Esse é o conteúdo principal.</p>
+        <Cards/>
+        <PetCards/>
+      </main>
+      <footer>
+        <p>&copy; 2025 Meu App</p>
+      </footer>
     </div>
   );
-};
+}
 
 export default App;
