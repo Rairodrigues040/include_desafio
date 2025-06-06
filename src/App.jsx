@@ -3,6 +3,7 @@ import Header from './components/header/Header';
 import Time from './components/Seçao_time/Seçao_time';
 import Footer from './components/Footer/footer';
 import NossosValores from './components/Nossos_Valores/NossosValores';
+import CadastroAnimais from './screens/CadastroAnimais';
 import './App.css';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <NossosValores />
         <Time />
         <Footer/>
+        <CadastroAnimais />
       </main>
     </div>
   );
