@@ -1,0 +1,90 @@
+/* Estilos específicos para o componente ContainerAdote */
+.container-adote {
+  max-width: 1050px;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #FFF7ED, #FFEDD5);
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.adote-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.adote-texto {
+  flex: 1;
+  min-width: 250px;
+}
+
+.img-adote {
+  width: 250px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.adote-texto .titulo-com-icone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.adote-texto .icone-titulo {
+  width: 28px;
+  height: 28px;
+}
+
+.adote-texto h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.adote-texto p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555555;
+}
+
+.adote-texto ul li {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+/* Responsividade específica para este componente */
+@media (max-width: 768px) {
+  .adote-flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-adote {
+    order: -1;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .adote-texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: auto;
+  }
+
+  .adote-texto .titulo-com-icone {
+    justify-content: center;
+  }
+}

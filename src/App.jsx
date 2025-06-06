@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import Header from './components/header/Header';
 import Time from './components/Seçao_time/Seçao_time';
 import Footer from './components/Footer/footer';
@@ -21,7 +21,7 @@ const App = () => {
   );
 };
 
-export default App;
+export default App;*/
 
 /* 
 import React from 'react';
@@ -50,3 +50,26 @@ export default App;
 
 
 */
+
+import React from 'react';
+import SecaoLaranja from './components/telaAjudar/Sessao1_telaComoAjudar/SecaoLaranja';
+import ContainerAdote from './components/telaAjudar/Container1_telaComoAjudar/ContainerAdote';
+import ContainerContribua from './components/telaAjudar/Container2_telaComoAjudar/ContainerContribua'; 
+import ContainerCompartilhe from './components/telaAjudar/Container3_telaComoAjudar/ContainerCompartilhe';
+
+
+
+import './index.css';
+
+function App() {
+  return (
+    <>
+      <SecaoLaranja />
+      <ContainerAdote />
+      <ContainerContribua />
+      <ContainerCompartilhe />
+    </>
+  );
+}
+
+export default App;
