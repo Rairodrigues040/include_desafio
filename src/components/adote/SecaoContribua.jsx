@@ -25,7 +25,12 @@ const SecaoContribua = () => {
             <li>Materiais de higiene e limpeza</li>
             <li>Manutenção do abrigo e instalações</li>
           </ul>
+          <a
+            href="https://apoia.se/meuamigoperro" 
+            target="_blank" 
+            rel="noopener noreferrer">
           <button>Faça uma Doação</button>
+          </a>
         </div>
       </div>
     </div>

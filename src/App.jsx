@@ -56,9 +56,6 @@ import SecaoLaranja from './components/telaAjudar/Sessao1_telaComoAjudar/SecaoLa
 import ContainerAdote from './components/telaAjudar/Container1_telaComoAjudar/ContainerAdote';
 import ContainerContribua from './components/telaAjudar/Container2_telaComoAjudar/ContainerContribua'; 
 import ContainerCompartilhe from './components/telaAjudar/Container3_telaComoAjudar/ContainerCompartilhe';
-
-
-
 import './index.css';
 
 function App() {

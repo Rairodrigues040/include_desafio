@@ -21,7 +21,13 @@ function ContainerCompartilhe() {
             <li>Indique nosso trabalho para amigos</li>
             <li>Participe de campanhas de conscientização</li>
           </ul>
+          <a
+            href="https://www.instagram.com/meuamigoperro/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <button>Siga-nos nas Redes</button>
+          </a>
         </div>
         <img src="/img/telaAjudar/imagem3.png" alt="Mãos segurando um celular com redes sociais" className="img-compartilhe" />
       </div>
